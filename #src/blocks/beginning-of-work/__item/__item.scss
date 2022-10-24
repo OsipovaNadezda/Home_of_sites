@@ -1,0 +1,15 @@
+.beginning-of-work__item{
+    width: 24rem;
+    height: 9rem;
+
+    @include centered();
+    @include font(500, 1.4rem, 140%);
+    text-align: center;
+
+    padding: 2.5rem 2rem;
+       
+&.active{
+    color: #FFFFFF;
+    @include font(700, 1.4rem, 140%);
+}
+}

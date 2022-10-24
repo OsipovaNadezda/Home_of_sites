@@ -1,0 +1,8 @@
+.form-btn{
+    @include font(500, 1.8rem, 125%);
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    padding: 2rem 4rem;
+   
+}

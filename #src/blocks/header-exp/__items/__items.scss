@@ -1,0 +1,9 @@
+.header-exp__items{
+    display: flex;
+
+    @include font(500, 1.4rem, 120%);
+
+    color: #212121;
+
+    cursor: pointer;
+}

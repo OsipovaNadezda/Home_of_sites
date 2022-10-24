@@ -1,0 +1,7 @@
+.portfolio__caption{
+    @include font(700, 1.8rem, 140%);
+    text-align:start;
+
+    width: 75.1rem;
+    margin-bottom: 2rem;
+}

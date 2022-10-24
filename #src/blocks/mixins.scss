@@ -1,0 +1,22 @@
+@mixin font ($weight, $size, $height) {
+    font-weight:$weight ;
+    font-size:$size ;
+    line-height:$height ;
+}
+
+@mixin cenflex{
+    display: flex;
+    align-items: center;
+}
+
+@mixin flexSB{
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin centered{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}

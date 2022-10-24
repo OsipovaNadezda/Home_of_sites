@@ -1,0 +1,21 @@
+.form__input{
+    width: 51rem;
+    height: 5.5rem;
+
+    @include font(400, 1.6rem, 100%);
+    padding-top: 2.9rem;
+    padding-bottom: 1rem;
+
+    &::placeholder{
+      @include font(400, 1.6rem, 100%);
+      color: #333333;
+      opacity: 0.4;
+    }
+
+    &:first-child{
+        margin-bottom: 1.6rem;
+        }
+        &:last-child{
+            margin-bottom: 2.6rem;
+            }
+}

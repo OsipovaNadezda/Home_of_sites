@@ -1,0 +1,9 @@
+.footer__items{
+    display: flex;
+       @include font(500, 1.4rem, 170%);
+       font-family: 'Montserrat';
+
+       color: #FFFFFF;
+
+    cursor: pointer;
+}

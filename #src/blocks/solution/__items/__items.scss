@@ -1,0 +1,5 @@
+.solution__items{
+    display: grid;
+    grid-template-columns: repeat(3, 36rem);
+    gap: 6rem; //3.8rem;
+}

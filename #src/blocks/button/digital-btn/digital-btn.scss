@@ -1,0 +1,11 @@
+.digital-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    @include font(500, 1.8rem, 122%);
+
+    padding: 1.6rem 3.2rem;
+    margin-bottom: 4rem;
+}

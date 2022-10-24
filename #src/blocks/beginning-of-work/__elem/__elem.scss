@@ -1,0 +1,8 @@
+.beginning-of-work__elem{
+    display: none;
+
+    &.active{
+        display: flex;
+        flex-direction: row;
+    }
+}

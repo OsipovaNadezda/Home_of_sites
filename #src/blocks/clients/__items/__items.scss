@@ -1,0 +1,9 @@
+.clients__items{
+    @include cenflex;
+    justify-content: center;
+
+}
+
+.clients__items:not(:last-child){
+     margin-bottom: 3rem;
+}

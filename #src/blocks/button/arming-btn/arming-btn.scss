@@ -1,0 +1,7 @@
+.arming-btn{
+    @include font(500, 1.8rem, 122%);
+
+    //justify-content: flex-end;
+    align-items: flex-end;
+    padding: 2rem 4rem;
+}
