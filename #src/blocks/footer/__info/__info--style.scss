@@ -1,4 +1,9 @@
 .footer__info--style{
     border-bottom: .1rem solid  rgb(255, 255, 255, 0.1) ;
-   
+}
+
+@media (max-width:48em){
+    .footer__info--style{
+        border-bottom: .3rem solid  rgb(255, 255, 255, 0.1) ;
+    }
 }

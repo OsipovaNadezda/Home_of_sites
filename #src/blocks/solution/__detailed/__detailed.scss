@@ -1,8 +1,9 @@
 .solution__detailed{
     display: flex;
     flex-direction: row;
-
     align-items: center;
+    align-self: end;
     
-margin-bottom: 2rem;
+    margin-bottom: 2.1rem;
+    margin-right: 2.4rem;
 }

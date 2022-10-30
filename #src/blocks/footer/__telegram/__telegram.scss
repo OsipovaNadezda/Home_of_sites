@@ -2,3 +2,10 @@
     width: 4rem;
     height: 4rem;
 }
+
+@media (max-width:48em){
+    .footer__telegram{
+        width: 8rem;
+        height: 8rem;
+   }
+}

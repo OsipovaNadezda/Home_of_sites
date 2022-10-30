@@ -1,8 +1,12 @@
 .footer__wrap{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include centered();
 
     padding-top: 10rem;
+}
+
+@media (max-width:48em){
+    .footer__wrap{
+        padding: 8rem 4rem;
+      
+    }
 }

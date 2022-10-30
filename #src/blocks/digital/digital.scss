@@ -2,3 +2,9 @@
     padding-top: 12rem;
     padding-bottom: 12rem;
 }
+
+@media (max-width:48em){
+    .digital{
+       display: none;
+   }
+}

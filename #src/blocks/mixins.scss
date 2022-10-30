@@ -4,11 +4,6 @@
     line-height:$height ;
 }
 
-@mixin cenflex{
-    display: flex;
-    align-items: center;
-}
-
 @mixin flexSB{
     display: flex;
     justify-content: space-between;

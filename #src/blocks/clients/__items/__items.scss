@@ -1,7 +1,7 @@
 .clients__items{
-    @include cenflex;
+    display: flex;
+    align-items: center;
     justify-content: center;
-
 }
 
 .clients__items:not(:last-child){

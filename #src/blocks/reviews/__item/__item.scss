@@ -1,0 +1,9 @@
+.reviews__item{
+    width: 36rem;
+    height: 42rem;
+}
+
+.reviews__item:nth-child(2n){
+    margin-left: 6rem;
+    margin-right: 6rem;
+}

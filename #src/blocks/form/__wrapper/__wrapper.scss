@@ -1,4 +1,10 @@
 .form__wrapper{
-    padding-top:12rem;
+    padding-top:11rem;
     padding-bottom: 10rem;
+}
+@media (max-width:48em){
+    .form__wrapper{
+        padding-top:6rem;
+        padding-bottom: 6rem;
+    }
 }

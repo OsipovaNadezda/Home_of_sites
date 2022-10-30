@@ -1,4 +1,10 @@
 .header__menu{
- padding-top: 2.8rem;
- padding-bottom: 2.8rem;
+    padding-top: 2.8rem;
+    padding-bottom: 2.8rem;
+}
+
+@media (max-width:48em){
+    .header__menu{
+        display: none;
+    }
 }

@@ -1,8 +1,15 @@
 .company__title{
-    font-weight: 700;
-    font-size:3.8rem;
-    line-height: 120%;
-
+    @include font(700, 3.8rem, 120%);
+   
     margin-top: 5.8rem;
     margin-bottom: 6rem;
 }
+
+@media (max-width:48em){
+    .company__title{
+        @include font(700,5.6rem,120%);
+        text-align: center;
+        
+        margin-bottom: 3rem;
+    }
+  }

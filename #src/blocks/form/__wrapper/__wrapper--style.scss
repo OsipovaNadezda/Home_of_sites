@@ -4,3 +4,9 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
+@media (max-width:48em){
+    .form__wrapper--style{
+        background-size: 255%;
+   }
+}

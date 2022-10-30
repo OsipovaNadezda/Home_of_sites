@@ -1,9 +1,19 @@
 .footer__items{
     display: flex;
-       @include font(500, 1.4rem, 170%);
-       font-family: 'Montserrat';
 
-       color: #FFFFFF;
+    @include font(500, 1.4rem, 170%);
+    font-family: 'Montserrat';
+    color: #FFFFFF;
 
     cursor: pointer;
+}
+
+@media (max-width:48em){
+     .footer__items:nth-child(3n){
+      display: none;
+    }
+    .footer__items{
+        @include font(500, 2.8rem, 140%);
+        order: 1;
+    }
 }

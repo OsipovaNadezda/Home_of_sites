@@ -4,3 +4,10 @@
 
     margin-bottom: 3.4rem;
 }
+
+@media (max-width:48em){
+    .solution__img{
+       width: 31.4rem;
+       height: 10.3rem;
+    }
+}

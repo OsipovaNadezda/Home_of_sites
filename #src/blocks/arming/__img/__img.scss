@@ -1,4 +1,10 @@
 .arming__img{
     width: 36.0rem;
-height: 54.4rem;
+    height: 54.4rem;
 }
+
+@media (max-width:48em){
+    .arming__img{
+        order: 2;
+    }
+ }

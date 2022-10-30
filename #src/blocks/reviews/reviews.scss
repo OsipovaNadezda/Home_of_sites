@@ -1,0 +1,9 @@
+.reviews{
+    margin-bottom: 12rem;
+}
+
+@media (max-width:48em){
+    .reviews{
+     display: none;
+    }
+  }

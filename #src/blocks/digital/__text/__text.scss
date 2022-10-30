@@ -1,8 +1,6 @@
 .digital__text{
-    font-weight: 500;
-font-size: 1.6rem;
-line-height: 140%;
+    @include font(500, 1.6rem,140%);
 
-margin-top: 2rem;
-margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }

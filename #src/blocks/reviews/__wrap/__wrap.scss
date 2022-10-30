@@ -1,0 +1,10 @@
+.reviews__wrap{
+    @include flexSB();
+    flex-direction: row;
+    align-items: center;
+    flex-basis: 137.2rem;
+
+    margin-bottom: 5rem;
+    margin-left: -7.8rem;
+    margin-right: -7.8rem;
+}

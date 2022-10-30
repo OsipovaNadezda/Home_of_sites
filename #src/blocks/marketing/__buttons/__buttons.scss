@@ -1,10 +1,11 @@
 .marketing__buttons{
     display: flex;
     flex-direction: row;
-    
-
- //   margin-bottom: 21rem;
-   // justify-content: center;
-   // align-items: center;
     cursor: pointer;
+}
+
+@media (max-width:48em){
+  .marketing__buttons{
+    flex-direction: column;
+  }
 }

@@ -1,0 +1,14 @@
+.footer__logo-mobile{
+    display: none;
+}
+
+@media (max-width:48em){
+    .footer__logo-mobile{
+        width: 37rem;
+        height:9.6rem;
+    
+        display: block;
+        margin-bottom: 5rem;
+    }
+    
+}

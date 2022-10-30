@@ -1,8 +1,16 @@
 .marketing__description{
+    @include font(500, 1.6rem, 140%);
+
     width: 78rem;
     margin-bottom: 5.2rem;
+}
 
-    font-weight: 500;
-    font-size: 1.6rem;
-    line-height: 140%;
+@media (max-width:48em){
+    .marketing__description{
+        @include font(500, 2.4rem, 120%);
+        text-align: start;
+
+        width: 60rem;
+        margin-bottom: 3rem;
+    }
 }

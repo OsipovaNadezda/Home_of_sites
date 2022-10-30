@@ -4,3 +4,13 @@
     width: 35rem;
     margin-bottom: 4rem;
 }
+
+@media (max-width:48em){
+    .arming__text2{
+        @include font(500, 2.4rem, 120%);
+        text-align: justify;
+
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+}

@@ -1,3 +1,9 @@
 .header-logo__wrap{
-    
+ padding: -1rem;
+}
+
+@media (max-width:48em){
+    .header-logo__wrap{
+        margin-left: 5rem;
+    }
 }

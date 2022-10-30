@@ -1,4 +1,11 @@
 .sales__wrap{
     margin-top: 12rem;
+}
 
+@media (max-width:48em){
+    .sales__wrap{
+        margin-top: 0rem;
+        padding-right: 4rem;
+        padding-left: 4rem;
+    }
 }

@@ -1,3 +1,11 @@
 .header__burger{
     display: none;
 }
+
+@media (max-width:48em){
+    .header__burger{
+        display:block;
+
+        margin-left: 2rem;
+    }
+}

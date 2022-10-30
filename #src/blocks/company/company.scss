@@ -2,3 +2,10 @@
     margin-top: 12rem;
     margin-bottom: 12rem;
 }
+
+@media (max-width:48em){
+    .company{
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+}

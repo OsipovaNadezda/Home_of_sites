@@ -1,11 +1,11 @@
 .results__elem{
-//     display: none;
-// @include font(500, 1.4rem, 140%);
+   display: none;
+   @include font(500, 1.4rem, 140%);
 
-// text-align: center;
-// width: 65rem;
+   text-align: center;
+   width: 65rem;
 
-// &.active{
-//     display:flex;
-// }
+   &.active{
+       display:flex;
+    }
 }

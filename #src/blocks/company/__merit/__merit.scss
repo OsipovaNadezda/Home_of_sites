@@ -1,3 +1,9 @@
 .company__merit{
     padding: 4.5rem 8.6rem; 
 }
+
+@media (max-width:48em){
+    .company__merit{
+        padding: 4rem 6rem; 
+    }
+}

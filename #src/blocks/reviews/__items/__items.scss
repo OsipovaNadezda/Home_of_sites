@@ -1,0 +1,5 @@
+.reviews__items{
+    @include flexSB();
+    flex-direction: row;
+    align-items: center;
+}

@@ -1,5 +1,15 @@
 .header-btn{
     width: 22.2rem;
     height:5.2rem;
+    
     padding: 1.6rem 2.8rem;
+    margin-right: 0.7rem;
+}
+
+@media (max-width:48em){
+    .header-btn{
+        width: 7rem;
+        height:7rem;
+        padding:0;
+    }
 }

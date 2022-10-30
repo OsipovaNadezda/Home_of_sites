@@ -1,5 +1,19 @@
 .portfolio__wrap--scroll{
     overflow-x: scroll;
     overflow-y: hidden;
-    scrollbar-color: rgb(51, 51, 51, 0.2) #333333 ;
  }
+
+ .portfolio__wrap--scroll::-webkit-scrollbar {
+    width: 120rem;
+    height: 2rem;
+  }
+   
+  .portfolio__wrap--scroll::-webkit-scrollbar-track {
+     background: rgb(51, 51, 51, 0.2)
+  }
+   
+  .portfolio__wrap--scroll::-webkit-scrollbar-thumb {
+    width: 20rem;
+    height: 2rem;
+    background: #333333;
+  }

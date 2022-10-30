@@ -4,3 +4,12 @@
     padding: 2rem 4rem;
     margin-bottom: 12rem;
 }
+
+@media (max-width:48em){
+    .sales-btn{
+        @include font(500, 2.4rem, 120%);
+        
+        padding: 4rem 8rem;
+        margin-bottom: 5rem;
+    }
+}

@@ -1,7 +1,18 @@
 .arming__text1{
     @include font(500, 1.6rem, 140%);
-   
-    margin-right: 6rem;
+      
     width: 36rem;
     margin-bottom: 1.8rem;
+    margin-right: 6rem;
 }
+
+@media (max-width:48em){
+    .arming__text1{
+        @include font(500, 2.4rem, 120%);
+        text-align: justify;
+
+        width: 100%;
+        margin-right: 0rem;
+        margin-bottom: 3rem;
+    }
+  }

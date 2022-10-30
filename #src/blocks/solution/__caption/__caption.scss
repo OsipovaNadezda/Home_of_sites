@@ -3,5 +3,11 @@
   
     width: 29.7rem;
     height: 5rem;
-     margin-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+
+@media (max-width:48em){
+    .solution__caption{
+        margin-bottom: 3rem;
+    }
 }

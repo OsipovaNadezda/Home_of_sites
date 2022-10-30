@@ -3,3 +3,9 @@
 
     margin-bottom: 10.7rem;
 }
+
+@media (max-width:48em){
+    .footer__development{
+      display: none;
+       }
+}

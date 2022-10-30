@@ -1,10 +1,7 @@
 .clients__wrap{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+    @include centered();
     flex-wrap: wrap;
 
     margin-bottom: 12rem;
 }
+

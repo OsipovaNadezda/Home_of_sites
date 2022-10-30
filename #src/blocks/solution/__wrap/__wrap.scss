@@ -2,3 +2,10 @@
     padding-top: 12rem;
     padding-bottom: 11.6rem;
 }
+
+@media (max-width:48em){
+    .solution__wrap{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+}

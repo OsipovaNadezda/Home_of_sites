@@ -5,11 +5,10 @@
     @include centered();
     @include font(200, 1.4rem, 140%);
   
-color: #212121;
+    color: #212121;
     text-align: center;
-
     
-&.active{
-    color: #FFFFFF;
-}
+    &.active{
+        color: #FFFFFF;
+    }
 }

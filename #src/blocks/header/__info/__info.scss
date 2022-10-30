@@ -1,8 +1,11 @@
 .header__info{
-    display: flex;
-    justify-content: space-between;
+    @include flexSB();
     align-items: center;
 
-    padding-top: 2.8rem;
     padding-bottom: 2.8rem;
+}
+@media (max-width:48em){
+    .header-logo__wrap{
+        justify-content: space-around; 
+    }
 }

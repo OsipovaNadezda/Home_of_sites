@@ -1,4 +1,11 @@
 .footer__tel-text{
     @include font(500, 1.4rem, 170%);
-color: #FFFFFF;
+    
+    color: #FFFFFF;
+}
+
+@media (max-width:48em){
+    .footer__tel-text{
+        @include font(500, 2.8rem, 140%);
+   }
 }

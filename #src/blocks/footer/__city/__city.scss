@@ -3,3 +3,9 @@
     
     margin-bottom: 2rem;
 }
+
+@media (max-width:48em){
+    .footer__city{
+        @include font(500, 2.8rem, 140%);
+   }
+}

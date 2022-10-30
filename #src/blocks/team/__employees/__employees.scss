@@ -1,3 +1,10 @@
 .team__employees{
    @include flexSB();
 }
+
+@media (max-width:48em){
+   .team__employees{
+      flex-wrap: wrap;
+      justify-content: space-around;
+   }
+ }

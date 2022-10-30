@@ -1,11 +1,13 @@
 .form__item{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+    @include centered();
+ 
     width: 63rem;
     padding: 2.5rem 6rem 6rem;
-
 }
 
+@media (max-width:48em){
+    .form__item{
+        width: 50rem;
+        padding: 4rem 4rem ;
+    }
+}

@@ -1,4 +1,11 @@
 .header-logo__img{
-    width: 18.5rem;
-    height: 4.8rem;
+    width: 18rem;
+    height: 4.7rem;
+}
+
+@media (max-width:48em){
+    .header-logo__img{
+        width: 37rem;
+        height:9.6rem;
+    }
 }

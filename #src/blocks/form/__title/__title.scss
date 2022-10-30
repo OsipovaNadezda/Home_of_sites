@@ -5,3 +5,9 @@
     width: 85.4rem;
     margin-bottom: 4rem;
 }
+
+@media (max-width:48em){
+    .form__title{
+        @include font(700,5.6rem,120%);
+   }
+}

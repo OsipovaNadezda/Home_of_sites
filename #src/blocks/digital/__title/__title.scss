@@ -1,7 +1,5 @@
 .digital__title{
-    font-weight: 700;
-    font-size: 1.8rem;
-    line-height: 140%;
+    @include font(700, 1.8rem,140%);
 
     margin-bottom: 2.8rem;
 }

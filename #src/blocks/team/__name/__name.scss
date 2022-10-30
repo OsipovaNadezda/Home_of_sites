@@ -3,3 +3,9 @@
 
     margin-bottom: .4rem;
 }
+
+@media (max-width:48em){
+    .team__name{
+        @include font(500, 2.4rem, 120%);
+    }
+}

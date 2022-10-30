@@ -1,0 +1,10 @@
+.reviews-btn{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   @include font(500, 1.6rem, 125%);
+  
+   margin: auto;
+   padding: 1.6rem 3.2rem;
+}

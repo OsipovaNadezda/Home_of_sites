@@ -3,3 +3,10 @@
    
     margin-bottom: 5.6rem;
 }
+
+@media (max-width:48em){
+    .arming__title{
+        @include font(700,5.6rem,120%);
+        margin-bottom: 3rem;
+    }
+  }

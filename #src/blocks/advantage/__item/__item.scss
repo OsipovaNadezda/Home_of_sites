@@ -1,11 +1,7 @@
 .advantage__item{
-    width: 27.0rem;
-    height: 13.0rem;
-    margin: 1.5rem 4.5rem;
+    width: 36.0rem;
+    height: 16.0rem;
+    padding: 1.5rem 1.5rem;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-   
+    @include centered();
 }

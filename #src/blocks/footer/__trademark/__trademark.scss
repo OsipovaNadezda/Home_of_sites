@@ -3,3 +3,9 @@
 
     margin-bottom: 1.6rem;
 }
+
+@media (max-width:48em){
+    .footer__trademark{
+        @include font(500, 2.4rem,120%);
+    }
+}

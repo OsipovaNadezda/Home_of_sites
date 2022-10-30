@@ -1,5 +1,11 @@
 .form__checkbox{
     width: 1rem;
     height: 1rem;
+}
 
+@media (max-width:48em){
+    .form__checkbox{
+        width: 4rem;
+        height: 4rem;
+    }
 }

@@ -1,6 +1,13 @@
 .marketing__wrap{
-    padding-top: 17rem;
+    padding-top: 16rem;
     padding-bottom: 20.5rem;
     margin: 0 auto;
     width: 100%;
+}
+
+@media (max-width:48em){
+    .marketing__wrap{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
 }

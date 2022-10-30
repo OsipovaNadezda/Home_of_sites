@@ -5,3 +5,10 @@
     width: 90.8rem;
     margin-bottom: 4rem;
 }
+@media (max-width:48em){
+    .form__description{
+        @include font(500,2.4rem,120%);
+        width:60rem;
+        text-align: justify;
+    }
+  }

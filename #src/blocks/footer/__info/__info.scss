@@ -5,3 +5,8 @@
 
     margin-bottom: 2rem;
 }
+@media (max-width:48em){
+    .footer__info{
+     flex-direction: column;
+    }
+}

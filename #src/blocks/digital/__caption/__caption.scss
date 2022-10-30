@@ -1,7 +1,5 @@
 .digital__caption{
-    font-weight: 700;
-    font-size: 3.8rem;
-    line-height: 120%;
-
+    @include font(700, 3.8rem, 120%);
+    
     margin-bottom: 6rem;
 }

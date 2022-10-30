@@ -6,3 +6,13 @@
     width: 62.8rem;
     margin-right: 15.2rem;
 }
+
+@media (max-width:48em){
+    .company__text{
+       justify-content:center;
+       text-align: justify;
+    
+        width: 100%;
+        margin-right: 0rem;
+    }
+}

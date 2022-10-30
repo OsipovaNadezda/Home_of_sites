@@ -2,3 +2,15 @@
     display: flex;
     flex-direction:row;
 }
+
+
+@media (max-width:48em){
+    .company__wrap{
+        margin-top: 5rem;
+        flex-direction: column;
+        align-items:center;
+
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}

@@ -4,3 +4,12 @@
 
     margin-right: 2rem;
 }
+
+@media (max-width:48em){
+    .footer__vk{
+        width: 8rem;
+        height: 8rem;
+    
+        margin-right: 6rem;
+   }
+}

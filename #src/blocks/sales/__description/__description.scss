@@ -3,5 +3,15 @@
     text-align: center;
 
     width: 69.8rem;
-   margin-bottom: 5.2rem;
+    margin-bottom: 5.2rem;
+}
+
+@media (max-width:48em){
+    .sales__description{
+        @include font(500,2.4rem,120%);
+        width:60rem;
+        text-align: justify;
+
+        margin-bottom: 3rem;
+    }
 }

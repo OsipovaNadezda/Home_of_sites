@@ -1,4 +1,12 @@
 .header__text{
-font-size: 1.4rem;
-line-height: 140%;
+    @include font(400, 1.4rem, 140%);
+
+    padding-left: 13.1rem;
+    padding-top: 0.5rem;
+}
+
+@media (max-width:48em){
+    .header__text{
+        display: none;
+    }
 }

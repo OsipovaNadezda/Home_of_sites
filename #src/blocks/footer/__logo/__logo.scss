@@ -4,3 +4,10 @@
 
     margin-bottom: 5.7rem;
 }
+
+@media (max-width:48em){
+    .footer__logo{
+     display: none;
+    }
+    
+}

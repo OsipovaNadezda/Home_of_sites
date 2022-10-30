@@ -19,3 +19,12 @@
             margin-bottom: 2.6rem;
             }
 }
+
+@media (max-width:48em){
+  .form__input{
+      width: 40rem;
+   }
+  .form__input::placeholder{
+    @include font(400, 2rem, 125%);
+  }
+}

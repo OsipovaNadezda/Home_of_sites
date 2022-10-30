@@ -1,8 +1,15 @@
 .marketing__title{
+    @include font(700,6.8rem,110%);
+
     width: 78rem;
     margin-bottom: 2.8rem;
+}
 
-    font-weight: 700;
-    font-size: 6.8rem;
-    line-height: 110%;
+@media (max-width:48em){
+    .marketing__title{
+        @include font(700,5.2rem,110%);
+        text-align:start;
+
+        width: 60rem;
+   }
 }

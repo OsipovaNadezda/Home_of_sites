@@ -1,10 +1,18 @@
 .marketing-sale{
-    font-weight: 500;
-    font-size: 1.8rem;
-    line-height: 122%;
+    @include font(500, 1.8rem, 122%);
     color: #FFFFFF;
 
     padding: 2rem 4rem;
     margin-right: 3.2rem;
-    
+}
+
+@media (max-width:48em){
+    .marketing-sale{
+        @include font(500, 2.4rem, 120%);
+        
+        width: 50rem;
+        padding: 2rem 4rem;
+        margin-right: 3rem;
+        margin-bottom: 3rem;
+    }
 }

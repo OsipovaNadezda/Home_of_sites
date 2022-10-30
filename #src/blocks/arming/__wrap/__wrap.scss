@@ -5,3 +5,13 @@
 
     margin-bottom: 12rem;
 }
+
+@media (max-width:48em){
+    .arming__wrap{
+        flex-direction: column;
+        align-items: center;
+     
+        margin-bottom:0rem;
+        padding: 5rem 4rem;
+    }
+  }

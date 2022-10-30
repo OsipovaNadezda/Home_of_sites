@@ -2,3 +2,9 @@
     width: 22.8rem;
     margin-right: 10.7rem;
 }
+
+@media (max-width:48em){
+    .footer__sales{
+      display: none;
+       }
+}

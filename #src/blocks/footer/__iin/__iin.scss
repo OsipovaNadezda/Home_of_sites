@@ -1,9 +1,14 @@
 .footer__iin{
     @include font(500, 1.4rem, 170%);
 
+    color: #FFFFFF;
+    opacity: 0.5;
+
     margin-bottom: 2.8rem;
+}
 
-color: #FFFFFF;
-
-opacity: 0.5;
+@media (max-width:48em){
+    .footer__iin{
+      display: none;
+       }
 }

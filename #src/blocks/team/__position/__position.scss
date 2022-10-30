@@ -1,4 +1,10 @@
 .team__position{
     @include font(500, 1.4rem, 140%);
+}
 
+@media (max-width:48em){
+    .team__position{
+        @include font(500, 2.4rem, 120%);
+        margin-bottom: 3rem;
+    }
 }

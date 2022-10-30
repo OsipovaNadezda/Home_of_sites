@@ -3,3 +3,11 @@
  
   padding-left: 1rem;
 }
+
+@media (max-width:48em){
+  .form__text{
+    @include font(400, 2rem, 125%);
+   
+    padding-left: 2rem;
+  }
+}

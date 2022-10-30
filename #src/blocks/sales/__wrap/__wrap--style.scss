@@ -4,3 +4,9 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+
+@media (max-width:48em){
+    .sales__wrap--style{
+        background-size: 225%;
+    }
+}

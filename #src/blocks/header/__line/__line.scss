@@ -1,0 +1,10 @@
+.header__line{
+    margin-left: -20rem;
+    margin-right: -20rem;
+}
+
+@media (max-width:48em){
+    .header__line{
+        display: none;
+    }
+}

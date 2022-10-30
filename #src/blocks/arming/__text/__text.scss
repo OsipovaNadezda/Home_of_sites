@@ -5,3 +5,12 @@
     padding-top: 12.6rem;
     padding-left: 6rem;
 }
+
+@media (max-width:48em){
+    .arming__text{
+        text-align: center;
+    
+        padding-top: 0rem;
+        padding-left: 0rem;
+    }
+ }
